@@ -1,0 +1,51 @@
+/* Reset / Box sizing */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Basis lay-out en typografie */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f7f7f7;
+    color: #222;
+    line-height: 1.4;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Header */
+.site-header {
+    
+    background: #0b6fa4;
+    color: #fff;
+    padding: 0.5rem 0;
+}
+
+/* Navigatie */
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.nav-list a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer */
+.site-footer {
+    background: #eee;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
