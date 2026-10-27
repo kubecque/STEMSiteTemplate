@@ -29,7 +29,7 @@ De website moet minimaal uit **5 pagina's** bestaan:
 - Welke bronnen hebben jullie gebruikt?
 - Welke oplossingen hebben jullie onderzocht?
 
-### 4. Uitwerking
+### 4. Uitwerking   
 - Beschrijf stap voor stap hoe jullie het project hebben gerealiseerd.
 - Voeg foto's, schema's, screenshots of tekeningen toe.
 - Vermeld eventuele moeilijkheden en hoe jullie die hebben opgelost.

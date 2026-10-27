@@ -1,38 +1,94 @@
 <!doctype html>
 <html lang="nl">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Project STEM - [Projectnaam]</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ontdek het STEM-project van [naam van de groep].">
+  <title>[Projectnaam] | STEM-project</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <a class="skip-link" href="#main">Ga naar de inhoud</a>
   <header class="site-header">
-    <div class="container">
-      <h1 class="site-title">[Projectnaam]</h1>
-      <nav class="main-nav">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">[Projectnaam]<span>STEM-project</span></a>
+      <nav class="main-nav" aria-label="Hoofdnavigatie">
         <ul class="nav-list">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="pages/project.html">Het project</a></li>
-          <li><a href="pages/planning.html">Planning</a></li>
-          <li><a href="pages/kostprijs.html">Kosten</a></li>
-          <li><a href="pages/theorie.html">Theorie</a></li>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="pages/probleemstelling.html">Probleemstelling</a></li>
+          <li><a href="pages/onderzoek.html">Onderzoek</a></li>
+          <li><a href="pages/uitwerking.html">Uitwerking</a></li>
+          <li><a href="pages/resultaat.html">Resultaat &amp; reflectie</a></li>
           <li><a href="pages/bijlagen.html">Bijlagen</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <main class="container">
+  <main id="main">
     <section class="hero">
-      <h2>Korte introductie</h2>
-      <p>Vervang deze tekst door een korte samenvatting van jullie project.</p>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Van vraag naar oplossing</p>
+          <h1>Een STEM-project over <span>[jullie onderwerp]</span></h1>
+          <p class="lead">[Vertel in twee of drie zinnen welk probleem jullie aanpakken, wat jullie hebben gemaakt of onderzocht en voor wie dit project bedoeld is.]</p>
+          <a class="button" href="pages/probleemstelling.html">Ontdek het project <span aria-hidden="true">&rarr;</span></a>
+        </div>
+        <div class="hero-art" role="img" aria-label="Decoratieve illustratie van een technisch ontwerp">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="art-center"><span aria-hidden="true">STEM</span></div>
+          <span class="art-node node-one" aria-hidden="true">S</span>
+          <span class="art-node node-two" aria-hidden="true">T</span>
+          <span class="art-node node-three" aria-hidden="true">E</span>
+          <span class="art-node node-four" aria-hidden="true">M</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">Het team</p>
+        <h2>De makers achter het project</h2>
+        <p>Vervang de voorbeeldvelden door jullie eigen gegevens.</p>
+      </div>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Groepsleden</h3>
+          <p>[Naam 1], [naam 2] en [naam 3]</p>
+        </article>
+        <article class="card">
+          <h3>Onze opdracht</h3>
+          <p>[Vat de opdracht of uitdaging kort samen.]</p>
+        </article>
+        <article class="card">
+          <h3>Onze doelstelling</h3>
+          <p>[Wat willen jullie op het einde hebben onderzocht, ontworpen of gebouwd?]</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-tint">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Volg ons proces</p>
+          <h2>Van onderzoek tot resultaat</h2>
+          <p>Gebruik deze onderdelen om bezoekers stap voor stap mee te nemen in jullie project.</p>
+        </div>
+        <div class="card-grid">
+          <a class="card card-link" href="pages/probleemstelling.html"><span class="card-number">01</span><h3>Probleemstelling</h3><p>Welk probleem lossen jullie op en wat willen jullie bereiken?</p></a>
+          <a class="card card-link" href="pages/onderzoek.html"><span class="card-number">02</span><h3>Onderzoek</h3><p>Welke informatie, bronnen en mogelijke oplossingen vonden jullie?</p></a>
+          <a class="card card-link" href="pages/uitwerking.html"><span class="card-number">03</span><h3>Uitwerking</h3><p>Hoe verliep het ontwerp en de realisatie van jullie oplossing?</p></a>
+          <a class="card card-link" href="pages/resultaat.html"><span class="card-number">04</span><h3>Resultaat &amp; reflectie</h3><p>Wat is het eindresultaat en wat nemen jullie mee uit dit project?</p></a>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container">
-      <p>&copy; 2025 - Team [naam]. Gebouwd als starttemplate voor het STEM-project.</p>
+    <div class="container footer-inner">
+      <p>&copy; [jaar] [naam van de groep] &middot; STEM-project [klas of school]</p>
+      <a href="pages/bijlagen.html">Bronnen en bijlagen</a>
     </div>
   </footer>
 </body>

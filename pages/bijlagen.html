@@ -1,38 +1,76 @@
 <!doctype html>
-<html lang='nl'>
-    <head>
-        <meta charset='utf-8'>
-        <meta name='viewport' content='width=device-width,initial-scale=1'>
-        <title>Project</title>
-        <link rel='stylesheet' href='../css/style.css'>
-    </head>
-    <body>
-        <header class="site-header">
-    <div class="container">
-      <h1 class="site-title">[Projectnaam]</h1>
-      <nav class="main-nav">
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bijlagen en bronnen | [Projectnaam]</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Ga naar de inhoud</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html">[Projectnaam]<span>STEM-project</span></a>
+      <nav class="main-nav" aria-label="Hoofdnavigatie">
         <ul class="nav-list">
           <li><a href="../index.html">Home</a></li>
-          <li><a href="project.html">Het project</a></li>
-          <li><a href="planning.html">Planning</a></li>
-          <li><a href="kostprijs.html">Kosten</a></li>
-          <li><a href="theorie.html">Theorie</a></li>
-          <li><a href="bijlagen.html">Bijlagen</a></li>
+          <li><a href="probleemstelling.html">Probleemstelling</a></li>
+          <li><a href="onderzoek.html">Onderzoek</a></li>
+          <li><a href="uitwerking.html">Uitwerking</a></li>
+          <li><a href="resultaat.html">Resultaat &amp; reflectie</a></li>
+          <li><a href="bijlagen.html" aria-current="page">Bijlagen</a></li>
         </ul>
       </nav>
     </div>
   </header>
-
-  <main class="container">
-    <section class="hero">
-      <h2>Bijlagen</h2>
-      <p>Plaats hier alle bijlagen.</p>
-    </section>
+  <main id="main">
+    <header class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Extra materiaal</p>
+        <h1>Bijlagen en bronnen</h1>
+        <p>Verzamel hier materiaal dat de andere pagina's ondersteunt, zoals bronvermeldingen, meetgegevens, schema's of extra foto's.</p>
+      </div>
+    </header>
+    <div class="container content">
+      <section>
+        <h2>Bronvermeldingen</h2>
+        <p>[Vermeld alle gebruikte bronnen volledig, ook bij afbeeldingen en informatie die jullie op andere pagina's verwerken.]</p>
+        <ul>
+          <li>[Auteur of organisatie], <cite>[Titel]</cite>, [datum], URL: [URL van de bron] (geraadpleegd op [datum]).</li>
+          <li>[Auteur of organisatie], <cite>[Titel]</cite>, [datum], URL: [URL van de bron] (geraadpleegd op [datum]).</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Extra beeldmateriaal</h2>
+        <p>[Voeg hier extra projectfoto's, schema's of tekeningen toe. Gebruik eigen materiaal of vermeld duidelijk de bron.]</p>
+        <div class="gallery">
+          <figure>
+            <div class="gallery-placeholder"><span><strong>Voeg afbeelding toe</strong>Bestand: assets/images/...</span></div>
+            <figcaption>[Beschrijvend bijschrift en eventuele bron]</figcaption>
+          </figure>
+          <figure>
+            <div class="gallery-placeholder"><span><strong>Voeg afbeelding toe</strong>Bestand: assets/images/...</span></div>
+            <figcaption>[Beschrijvend bijschrift en eventuele bron]</figcaption>
+          </figure>
+          <figure>
+            <div class="gallery-placeholder"><span><strong>Voeg afbeelding toe</strong>Bestand: assets/images/...</span></div>
+            <figcaption>[Beschrijvend bijschrift en eventuele bron]</figcaption>
+          </figure>
+        </div>
+      </section>
+      <section>
+        <h2>Documenten en meetgegevens</h2>
+        <p>[Link naar bijlagen die bezoekers mogen bekijken, zoals een meettabel, ontwerptekening of handleiding. Controleer dat elk bestand mee wordt ingediend en lokaal opent.]</p>
+        <ul>
+          <li>[Naam van document of meetbestand] — voeg een link toe zodra het bestand klaarstaat in de map assets.</li>
+        </ul>
+      </section>
+    </div>
   </main>
-
   <footer class="site-footer">
-    <div class="container">
-      <p>&copy; 2025 - Team [naam]. Gebouwd als starttemplate voor het STEM-project.</p>
+    <div class="container footer-inner">
+      <p>&copy; [jaar] [naam van de groep] &middot; STEM-project [klas of school]</p>
+      <a href="../index.html">Terug naar Home</a>
     </div>
   </footer>
 </body>
